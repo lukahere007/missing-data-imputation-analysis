@@ -10,7 +10,8 @@ The notebook explores how each method influences the estimated coefficients (`x1
 
 ## 📁 File
 
-- [`missing_data_imputation_analysis.ipynb`](https://github.com/lukahere007/missing-data-imputation-analysis/blob/main/missing_data_imputation_analysis.ipynb)
+📎 **Explore the notebook:**  
+[Vaccine Imputation Analysis Notebook](https://github.com/lukahere007/missing-data-imputation-analysis/blob/main/missing_data_imputation_analysis.ipynb)
 
 ## 📌 Key Features
 
