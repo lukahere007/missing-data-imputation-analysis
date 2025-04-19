@@ -1,30 +1,42 @@
-# Missing Data Imputation Analysis
+# 📊 Missing Data Imputation Analysis
 
-This project explores how different imputation strategies affect statistical modeling when data is Missing Completely at Random (MCAR) or Missing at Random (MAR). Using synthetic data, we analyze how mean and regression imputation impact coefficient estimates for linear models.
+This project demonstrates the impact of different missing data mechanisms—MCAR, MAR, and MNAR—on linear regression estimates using simulated data. It compares:
+
+- Complete case analysis
+- Mean imputation
+- Regression-based imputation
+
+The notebook explores how each method influences the estimated coefficients (`x1`, `x2`) and provides visualizations for deeper insight.
+
+## 📁 File
+
+- [`missing_data_imputation_analysis.ipynb`](https://github.com/lukahere007/missing-data-imputation-analysis/blob/main/missing_data_imputation_analysis.ipynb)
+
+## 📌 Key Features
+
+- Simulates datasets under MCAR, MAR, and MNAR assumptions
+- Applies mean and regression imputation strategies
+- Compares regression outputs from complete, missing, and imputed data
+- Visualizes differences in coefficient estimates
+
+## 📈 Visualizations
+
+- Boxplots of imputations
+- Line plots for regression fits
+- Bar plots comparing coefficient estimates for `x1` and `x2`
 
 ---
 
-## 📁 Contents
+### 🧠 Summary
 
-- [`missing_data_imputation_analysis.ipynb`](https://github.com/lukahere007/missing-data-imputation-analysis/blob/main/missing_data_imputation_analysis.ipynb) – Jupyter notebook with full simulation, modeling, and plots
-- `README.md` – Overview and instructions
-
----
-
-## 📊 Objective
-
-The goal is to demonstrate:
-- How missing data mechanisms (MCAR, MAR) can distort estimates
-- Comparison between:
-  - ✅ Full data (no missingness)
-  - 🚫 Mean imputation (for MCAR)
-  - 📈 Regression imputation (for MAR)
+Understanding how missing data affects model estimates is essential for robust statistical analysis. This notebook highlights how each imputation strategy performs under different missingness assumptions.
 
 ---
 
-## 📦 Dependencies
+### 🔧 Requirements
 
-Install the following packages before running:
+Run using:
 
 ```bash
-pip install numpy pandas matplotlib seaborn statsmodels
+jupyter lab
+
