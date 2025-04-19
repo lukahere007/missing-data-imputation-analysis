@@ -6,8 +6,8 @@ This project explores how different imputation strategies affect statistical mod
 
 ## 📁 Contents
 
-- `missing_data_imputation_analysis.ipynb` - Jupyter notebook with full simulation, modeling, and plots.
-- `README.md` - Overview and instructions.
+- [`missing_data_imputation_analysis.ipynb`](https://github.com/lukahere007/missing-data-imputation-analysis/blob/main/missing_data_imputation_analysis.ipynb) – Jupyter notebook with full simulation, modeling, and plots
+- `README.md` – Overview and instructions
 
 ---
 
